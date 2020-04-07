@@ -1,12 +1,17 @@
 package main
 
 import (
+	"fmt"
 	"math"
 	"strconv"
 )
 
 // https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3284/
 
+func main() {
+	happy := isHappy(2)
+	fmt.Println(happy)
+}
 func numberDigits(n int) []int {
 	digitsStr := strconv.Itoa(n)
 	length := len(digitsStr)
@@ -21,6 +26,7 @@ func numberDigits(n int) []int {
 }
 
 func isHappy(n int) bool {
+	fmt.Println(n)
 	if n == 4 {
 		return false
 	}
