@@ -1,11 +1,10 @@
 package main
 
 // https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3287/
+
 import "fmt"
 
 func main() {
-	fmt.Println("Hello")
-
 	prices := []int{7, 1, 5, 3, 6, 4}
 	profit := maxProfit(prices)
 
